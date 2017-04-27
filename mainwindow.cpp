@@ -21,6 +21,11 @@ MainWindow::MainWindow(QWidget *parent) :
         diff = (double)1 - t;
         x[i] = (p[0].getX() * diff*diff*diff) + (3 * p[1].getX() * t * diff*diff) + (3 * p[2].getX() * t*t * diff) + (p[3].getX() * t*t*t);
         y[i] = (p[0].getY() * diff*diff*diff) + (3 * p[1].getY() * t * diff*diff) + (3 * p[2].getY() * t*t * diff) + (p[3].getY() * t*t*t);
+        if (x[i] > 40 && y[i] < 20) {
+            std::cout<<"T: "<<t<<std::endl;
+            std::cout<<"X: "<<x[i]<<std::endl;
+            std::cout<<"Y: "<<y[i]<<std::endl;
+        }
     }
 
 //    ui->p0x->setKeyboardTracking(false);
@@ -49,8 +54,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->customPlot->xAxis->setLabel("x");
     ui->customPlot->yAxis->setLabel("y");
     // set axes to autoscale, so we see all data:
-    ui->customPlot->xAxis->setRange(0,100);
-    ui->customPlot->yAxis->setRange(0,100);
+    ui->customPlot->xAxis->setRange(40,45);
+    ui->customPlot->yAxis->setRange(4,35);
 
 
     ui->customPlot->replot();
