@@ -57,7 +57,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QDoubleSpinBox" name="p1y_2">
+   <widget class="QDoubleSpinBox" name="p1y">
     <property name="geometry">
      <rect>
       <x>740</x>

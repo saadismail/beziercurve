@@ -16,6 +16,7 @@ public:
     ~MainWindow();
 private slots:
     void handleButton();
+    void reGraph();
 
 private:
     Ui::MainWindow *ui;
