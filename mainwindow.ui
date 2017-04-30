@@ -14,19 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="graph">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>230</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Graph!</string>
-    </property>
-   </widget>
    <widget class="QDoubleSpinBox" name="p0x">
     <property name="geometry">
      <rect>
@@ -117,36 +104,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QComboBox" name="questionSelect">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>70</y>
-      <width>81</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Question 1</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Question 3</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Question 4</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Question 5</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QLabel" name="p0">
     <property name="geometry">
      <rect>
@@ -225,6 +182,26 @@
     </property>
     <property name="text">
      <string>P3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="p0_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>70</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Control Points</string>
     </property>
    </widget>
   </widget>
