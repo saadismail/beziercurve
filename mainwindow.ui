@@ -17,81 +17,105 @@
    <widget class="QDoubleSpinBox" name="p0x">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>110</y>
-      <width>51</width>
+      <x>660</x>
+      <y>240</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p0y">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>110</y>
-      <width>51</width>
+      <x>730</x>
+      <y>240</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p1x">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>140</y>
-      <width>51</width>
+      <x>660</x>
+      <y>270</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p1y">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>140</y>
-      <width>51</width>
+      <x>730</x>
+      <y>270</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p2x">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>170</y>
-      <width>51</width>
+      <x>660</x>
+      <y>300</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p2y">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>170</y>
-      <width>51</width>
+      <x>730</x>
+      <y>300</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p3x">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>200</y>
-      <width>51</width>
+      <x>660</x>
+      <y>330</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QDoubleSpinBox" name="p3y">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>200</y>
-      <width>51</width>
+      <x>730</x>
+      <y>330</y>
+      <width>61</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maximum">
+     <double>200.000000000000000</double>
     </property>
    </widget>
    <widget class="QCustomPlot" name="customPlot" native="true">
@@ -107,8 +131,8 @@
    <widget class="QLabel" name="p0">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>110</y>
+      <x>640</x>
+      <y>240</y>
       <width>21</width>
       <height>16</height>
      </rect>
@@ -127,8 +151,8 @@
    <widget class="QLabel" name="p1">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>140</y>
+      <x>640</x>
+      <y>270</y>
       <width>21</width>
       <height>16</height>
      </rect>
@@ -147,8 +171,8 @@
    <widget class="QLabel" name="p2">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>170</y>
+      <x>640</x>
+      <y>300</y>
       <width>21</width>
       <height>16</height>
      </rect>
@@ -167,8 +191,8 @@
    <widget class="QLabel" name="p3">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>200</y>
+      <x>640</x>
+      <y>330</y>
       <width>21</width>
       <height>16</height>
      </rect>
@@ -184,11 +208,11 @@
      <string>P3</string>
     </property>
    </widget>
-   <widget class="QLabel" name="p0_2">
+   <widget class="QLabel" name="cp">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>70</y>
+      <x>660</x>
+      <y>200</y>
       <width>131</width>
       <height>31</height>
      </rect>
@@ -202,6 +226,45 @@
     </property>
     <property name="text">
      <string>Control Points</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>360</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q4">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>360</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q1">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>360</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Q1</string>
     </property>
    </widget>
   </widget>
