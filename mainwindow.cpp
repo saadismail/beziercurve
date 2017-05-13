@@ -39,7 +39,6 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->q3, SIGNAL (released()), this, SLOT (handleq3()));
     connect(ui->q4, SIGNAL (released()), this, SLOT (handleq4()));
 
-    ui->p0x->setKeyboardTracking(false);
     connect(ui->p0x, static_cast<void(QDoubleSpinBox::*)(double)>(&QDoubleSpinBox::valueChanged),[=](double d){ p[0].setX(d); this->reGraph(); });
     connect(ui->p0y, static_cast<void(QDoubleSpinBox::*)(double)>(&QDoubleSpinBox::valueChanged),[=](double d){ p[0].setY(d); this->reGraph(); });
     connect(ui->p1x, static_cast<void(QDoubleSpinBox::*)(double)>(&QDoubleSpinBox::valueChanged),[=](double d){ p[1].setX(d); this->reGraph(); });
